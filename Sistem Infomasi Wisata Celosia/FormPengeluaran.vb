@@ -70,7 +70,7 @@ Integrated Security=True; " & "database=Wisata_Celosia")
             cmdDelete.ExecuteNonQuery()
 
             TxtIdPengeluaran.Clear()
-
+            'halohalo
             ViewTable()
 
         Catch ex As Exception
