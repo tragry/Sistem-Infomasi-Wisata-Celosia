@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+=======
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
 Partial Class FormPengeluaran
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
+<<<<<<< HEAD
     <System.Diagnostics.DebuggerNonUserCode()>
+=======
+    <System.Diagnostics.DebuggerNonUserCode()> _
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,6 +28,7 @@ Partial Class FormPengeluaran
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
+<<<<<<< HEAD
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -172,11 +181,30 @@ Partial Class FormPengeluaran
         Me.Btndelete.TabIndex = 40
         Me.Btndelete.Text = "Delete"
         Me.Btndelete.UseVisualStyleBackColor = True
+=======
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.SuspendLayout()
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.Label1.Location = New System.Drawing.Point(423, 32)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(363, 35)
+        Me.Label1.TabIndex = 13
+        Me.Label1.Text = "Pengeluaran Taman Celosia"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
         '
         'FormPengeluaran
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+<<<<<<< HEAD
         Me.BackColor = System.Drawing.Color.LightSteelBlue
         Me.ClientSize = New System.Drawing.Size(1200, 800)
         Me.Controls.Add(Me.Btndelete)
@@ -193,15 +221,23 @@ Partial Class FormPengeluaran
         Me.Controls.Add(Me.LblPengeluaran)
         Me.Controls.Add(Me.LblIdPengeluaran)
         Me.Controls.Add(Me.Label2)
+=======
+        Me.ClientSize = New System.Drawing.Size(1200, 800)
+        Me.Controls.Add(Me.Label1)
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "FormPengeluaran"
         Me.Text = "FormPengeluaran"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+<<<<<<< HEAD
         CType(Me.DgvPengeluaran, System.ComponentModel.ISupportInitialize).EndInit()
+=======
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
+<<<<<<< HEAD
     Friend WithEvents Label2 As Label
     Friend WithEvents LblIdPengeluaran As Label
     Friend WithEvents LblPengeluaran As Label
@@ -216,4 +252,8 @@ Partial Class FormPengeluaran
     Friend WithEvents DgvPengeluaran As DataGridView
     Friend WithEvents BtnSimpan As Button
     Friend WithEvents Btndelete As Button
+=======
+
+    Friend WithEvents Label1 As Label
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
 End Class

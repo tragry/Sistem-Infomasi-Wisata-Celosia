@@ -70,13 +70,19 @@ Partial Class Bayar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+<<<<<<< HEAD
         Me.BackColor = System.Drawing.Color.White
+=======
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
         Me.ClientSize = New System.Drawing.Size(520, 188)
         Me.Controls.Add(Me.BtnCancel)
         Me.Controls.Add(Me.BtnOk)
         Me.Controls.Add(Me.TxtNominal)
         Me.Controls.Add(Me.Label4)
+<<<<<<< HEAD
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+=======
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
         Me.Name = "Bayar"
         Me.Text = "Bayar"
         Me.ResumeLayout(False)

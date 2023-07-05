@@ -13,15 +13,24 @@ Option Explicit On
 
 
 Namespace My
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
     'NOTE: This file is auto-generated; do not modify it directly.  To make changes,
     ' or if you encounter build errors in this file, go to the Project Designer
     ' (go to Project Properties or double-click the My Project node in
     ' Solution Explorer), and make changes on the Application tab.
     '
     Partial Friend Class MyApplication
+<<<<<<< HEAD
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
+=======
+
+        <Global.System.Diagnostics.DebuggerStepThroughAttribute()> _
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
         Public Sub New()
             MyBase.New(Global.Microsoft.VisualBasic.ApplicationServices.AuthenticationMode.Windows)
             Me.IsSingleInstance = false
@@ -29,8 +38,13 @@ Namespace My
             Me.SaveMySettingsOnExit = true
             Me.ShutDownStyle = Global.Microsoft.VisualBasic.ApplicationServices.ShutdownMode.AfterMainFormCloses
         End Sub
+<<<<<<< HEAD
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
+=======
+
+        <Global.System.Diagnostics.DebuggerStepThroughAttribute()> _
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
         Protected Overrides Sub OnCreateMainForm()
             Me.MainForm = Global.Sistem_Infomasi_Wisata_Celosia.Form1
         End Sub

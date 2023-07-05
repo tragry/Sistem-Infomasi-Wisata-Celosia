@@ -22,17 +22,27 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+<<<<<<< HEAD
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.MenuStrip2 = New System.Windows.Forms.MenuStrip()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+=======
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
         Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LogoutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.KeluarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.WahanaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+<<<<<<< HEAD
+=======
+        Me.TiketToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
         Me.KasirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PemasukanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PengeluaranToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LaporanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+<<<<<<< HEAD
         Me.KatalogToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -62,6 +72,31 @@ Partial Class Form1
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
         Me.ToolStripMenuItem1.Size = New System.Drawing.Size(56, 26)
         Me.ToolStripMenuItem1.Text = "File"
+=======
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.MenuStrip1.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.BackColor = System.Drawing.Color.Transparent
+        Me.MenuStrip1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.WahanaToolStripMenuItem, Me.TiketToolStripMenuItem, Me.KasirToolStripMenuItem, Me.PemasukanToolStripMenuItem, Me.PengeluaranToolStripMenuItem, Me.LaporanToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 10, 5, 10)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1282, 46)
+        Me.MenuStrip1.TabIndex = 85
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'FileToolStripMenuItem
+        '
+        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LoginToolStripMenuItem, Me.LogoutToolStripMenuItem, Me.KeluarToolStripMenuItem})
+        Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(56, 26)
+        Me.FileToolStripMenuItem.Text = "File"
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
         '
         'LoginToolStripMenuItem
         '
@@ -87,6 +122,15 @@ Partial Class Form1
         Me.WahanaToolStripMenuItem.Size = New System.Drawing.Size(85, 26)
         Me.WahanaToolStripMenuItem.Text = "Wahana"
         '
+<<<<<<< HEAD
+=======
+        'TiketToolStripMenuItem
+        '
+        Me.TiketToolStripMenuItem.Name = "TiketToolStripMenuItem"
+        Me.TiketToolStripMenuItem.Size = New System.Drawing.Size(64, 26)
+        Me.TiketToolStripMenuItem.Text = "Tiket"
+        '
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
         'KasirToolStripMenuItem
         '
         Me.KasirToolStripMenuItem.Name = "KasirToolStripMenuItem"
@@ -107,11 +151,15 @@ Partial Class Form1
         '
         'LaporanToolStripMenuItem
         '
+<<<<<<< HEAD
         Me.LaporanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LaporanPenjualanToolStripMenuItem, Me.LaporanPengeluaranToolStripMenuItem})
+=======
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
         Me.LaporanToolStripMenuItem.Name = "LaporanToolStripMenuItem"
         Me.LaporanToolStripMenuItem.Size = New System.Drawing.Size(89, 26)
         Me.LaporanToolStripMenuItem.Text = "Laporan"
         '
+<<<<<<< HEAD
         'KatalogToolStripMenuItem
         '
         Me.KatalogToolStripMenuItem.Name = "KatalogToolStripMenuItem"
@@ -180,16 +228,47 @@ Partial Class Form1
         Me.MenuStrip2.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+=======
+        'Panel1
+        '
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel1.Location = New System.Drawing.Point(0, 46)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(1282, 707)
+        Me.Panel1.TabIndex = 86
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScroll = True
+        Me.BackColor = System.Drawing.Color.White
+        Me.ClientSize = New System.Drawing.Size(1282, 753)
+        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.MenuStrip1)
+        Me.MainMenuStrip = Me.MenuStrip1
+        Me.Name = "Form1"
+        Me.Text = "Taman Bunga Celosia"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
+<<<<<<< HEAD
     Friend WithEvents MenuStrip2 As MenuStrip
     Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
+=======
+    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents FileToolStripMenuItem As ToolStripMenuItem
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
     Friend WithEvents LoginToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents LogoutToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents KeluarToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents WahanaToolStripMenuItem As ToolStripMenuItem
+<<<<<<< HEAD
     Friend WithEvents KasirToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PemasukanToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PengeluaranToolStripMenuItem As ToolStripMenuItem
@@ -200,4 +279,12 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents LaporanPenjualanToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents LaporanPengeluaranToolStripMenuItem As ToolStripMenuItem
+=======
+    Friend WithEvents TiketToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents KasirToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PemasukanToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PengeluaranToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents LaporanToolStripMenuItem As ToolStripMenuItem
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
 End Class

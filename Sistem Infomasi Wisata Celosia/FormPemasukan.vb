@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿Imports System.Data.SqlClient
 
 Public Class FormPemasukan
@@ -46,3 +47,8 @@ Public Class FormPemasukan
         End Try
     End Sub
 End Class
+=======
+﻿Public Class FormPemasukan
+
+End Class
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca

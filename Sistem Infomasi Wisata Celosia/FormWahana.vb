@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿Imports System
 Imports System.Data
 Imports System.Data.SqlClient
@@ -114,5 +115,8 @@ Public Class FormWahana
             MsgBox("Data Dihapus!")
         End Try
     End Sub
+=======
+﻿Public Class FormWahana
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
 
 End Class

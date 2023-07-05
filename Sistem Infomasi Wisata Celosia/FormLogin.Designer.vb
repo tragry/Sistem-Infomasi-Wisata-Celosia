@@ -81,7 +81,11 @@ Partial Class FormLogin
         Me.BtnLogin.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnLogin.Location = New System.Drawing.Point(327, 225)
         Me.BtnLogin.Name = "BtnLogin"
+<<<<<<< HEAD
         Me.BtnLogin.Size = New System.Drawing.Size(100, 40)
+=======
+        Me.BtnLogin.Size = New System.Drawing.Size(100, 30)
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
         Me.BtnLogin.TabIndex = 5
         Me.BtnLogin.Text = "Login"
         Me.BtnLogin.UseVisualStyleBackColor = True
@@ -90,8 +94,11 @@ Partial Class FormLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+<<<<<<< HEAD
         Me.AutoSize = True
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+=======
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
         Me.ClientSize = New System.Drawing.Size(522, 313)
         Me.Controls.Add(Me.BtnLogin)
         Me.Controls.Add(Me.TxtPassword)

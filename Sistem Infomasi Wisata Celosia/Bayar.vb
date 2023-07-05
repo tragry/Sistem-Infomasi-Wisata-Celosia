@@ -1,5 +1,6 @@
 ﻿Public Class Bayar
 
+<<<<<<< HEAD
     Private Sub BtnOk_Click(sender As Object, e As EventArgs) Handles BtnOk.Click
         Dim totalBayar As Integer = Integer.Parse(FormKasir.LbTotalBayar.Text)
         Dim nominal As Integer = Integer.Parse(TxtNominal.Text)
@@ -19,3 +20,6 @@
     End Sub
 
 End Class
+=======
+End Class
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca

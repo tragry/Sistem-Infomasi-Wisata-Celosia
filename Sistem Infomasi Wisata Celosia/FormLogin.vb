@@ -1,4 +1,5 @@
 ﻿Public Class FormLogin
+<<<<<<< HEAD
     ' Simpan informasi pengguna dalam kamus
     Private users As New Dictionary(Of String, String)()
 
@@ -43,3 +44,7 @@
         ' Kode yang ingin Anda tambahkan saat FormLogin dimuat
     End Sub
 End Class
+=======
+
+End Class
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca

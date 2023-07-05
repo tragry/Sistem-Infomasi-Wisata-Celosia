@@ -48,16 +48,22 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+=======
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
+<<<<<<< HEAD
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Services" />
+=======
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -85,12 +91,15 @@
     <Compile Include="Bayar.vb">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Form LaporanPengeluaran.Designer.vb">
       <DependentUpon>Form LaporanPengeluaran.vb</DependentUpon>
     </Compile>
     <Compile Include="Form LaporanPengeluaran.vb">
       <SubType>Form</SubType>
     </Compile>
+=======
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +107,7 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="FormAdmin.Designer.vb">
       <DependentUpon>FormAdmin.vb</DependentUpon>
     </Compile>
@@ -110,16 +120,25 @@
     <Compile Include="FormCetakPenjualan.vb">
       <SubType>Form</SubType>
     </Compile>
+=======
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
     <Compile Include="FormKasir.Designer.vb">
       <DependentUpon>FormKasir.vb</DependentUpon>
     </Compile>
     <Compile Include="FormKasir.vb">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="FormLaporanPenjualan.Designer.vb">
       <DependentUpon>FormLaporanPenjualan.vb</DependentUpon>
     </Compile>
     <Compile Include="FormLaporanPenjualan.vb">
+=======
+    <Compile Include="FormLaporan.Designer.vb">
+      <DependentUpon>FormLaporan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLaporan.vb">
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormLogin.Designer.vb">
@@ -140,6 +159,15 @@
     <Compile Include="FormPengeluaran.vb">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="FormTiket.Designer.vb">
+      <DependentUpon>FormTiket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTiket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
     <Compile Include="FormWahana.Designer.vb">
       <DependentUpon>FormWahana.vb</DependentUpon>
     </Compile>
@@ -151,7 +179,10 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+<<<<<<< HEAD
       <DesignTime>True</DesignTime>
+=======
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -163,6 +194,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="new-katalog.Designer.vb">
       <DependentUpon>new-katalog.vb</DependentUpon>
     </Compile>
@@ -175,11 +207,14 @@
     <Compile Include="Struk.vb">
       <SubType>Form</SubType>
     </Compile>
+=======
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Bayar.resx">
       <DependentUpon>Bayar.vb</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Form LaporanPengeluaran.resx">
       <DependentUpon>Form LaporanPengeluaran.vb</DependentUpon>
     </EmbeddedResource>
@@ -197,6 +232,16 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormLaporanPenjualan.resx">
       <DependentUpon>FormLaporanPenjualan.vb</DependentUpon>
+=======
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKasir.resx">
+      <DependentUpon>FormKasir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLaporan.resx">
+      <DependentUpon>FormLaporan.vb</DependentUpon>
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.vb</DependentUpon>
@@ -207,6 +252,12 @@
     <EmbeddedResource Include="FormPengeluaran.resx">
       <DependentUpon>FormPengeluaran.vb</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+=======
+    <EmbeddedResource Include="FormTiket.resx">
+      <DependentUpon>FormTiket.vb</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
     <EmbeddedResource Include="FormWahana.resx">
       <DependentUpon>FormWahana.vb</DependentUpon>
     </EmbeddedResource>
@@ -216,9 +267,12 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="new-katalog.resx">
       <DependentUpon>new-katalog.vb</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Application.myapp">
@@ -232,8 +286,11 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
+=======
+>>>>>>> 39d7d3b5ef7710882f4ebd4af424a87edbfa57ca
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
