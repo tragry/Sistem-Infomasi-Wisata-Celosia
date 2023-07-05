@@ -80,4 +80,5 @@ Integrated Security=True; " & "database=Wisata_Celosia")
             MsgBox("Data Dihapus!")
         End Try
     End Sub
+
 End Class

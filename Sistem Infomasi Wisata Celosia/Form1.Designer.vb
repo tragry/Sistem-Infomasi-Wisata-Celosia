@@ -22,8 +22,9 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Me.MenuStrip2 = New System.Windows.Forms.MenuStrip()
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LogoutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.KeluarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -32,52 +33,52 @@ Partial Class Form1
         Me.PemasukanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PengeluaranToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LaporanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.KatalogToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.LbSD = New System.Windows.Forms.Label()
-        Me.LbJudul = New System.Windows.Forms.Label()
-        Me.MenuStrip1.SuspendLayout()
+        Me.LaporanPenjualanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LaporanPengeluaranToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MenuStrip2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'MenuStrip1
+        'MenuStrip2
         '
-        Me.MenuStrip1.BackColor = System.Drawing.Color.Transparent
-        Me.MenuStrip1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.WahanaToolStripMenuItem, Me.KasirToolStripMenuItem, Me.PemasukanToolStripMenuItem, Me.PengeluaranToolStripMenuItem, Me.LaporanToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 10, 5, 10)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1282, 46)
-        Me.MenuStrip1.TabIndex = 85
-        Me.MenuStrip1.Text = "MenuStrip1"
+        Me.MenuStrip2.BackColor = System.Drawing.Color.SkyBlue
+        Me.MenuStrip2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MenuStrip2.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.MenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.WahanaToolStripMenuItem, Me.KasirToolStripMenuItem, Me.PemasukanToolStripMenuItem, Me.PengeluaranToolStripMenuItem, Me.LaporanToolStripMenuItem, Me.KatalogToolStripMenuItem})
+        Me.MenuStrip2.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip2.Name = "MenuStrip2"
+        Me.MenuStrip2.Padding = New System.Windows.Forms.Padding(5, 10, 5, 10)
+        Me.MenuStrip2.Size = New System.Drawing.Size(1182, 46)
+        Me.MenuStrip2.TabIndex = 0
+        Me.MenuStrip2.Text = "MenuStrip1"
         '
-        'FileToolStripMenuItem
+        'ToolStripMenuItem1
         '
-        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LoginToolStripMenuItem, Me.LogoutToolStripMenuItem, Me.KeluarToolStripMenuItem})
-        Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(56, 26)
-        Me.FileToolStripMenuItem.Text = "File"
+        Me.ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LoginToolStripMenuItem, Me.LogoutToolStripMenuItem, Me.KeluarToolStripMenuItem})
+        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(56, 26)
+        Me.ToolStripMenuItem1.Text = "File"
         '
         'LoginToolStripMenuItem
         '
         Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
-        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(148, 26)
         Me.LoginToolStripMenuItem.Text = "Login"
         '
         'LogoutToolStripMenuItem
         '
         Me.LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
-        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(148, 26)
         Me.LogoutToolStripMenuItem.Text = "Logout"
         '
         'KeluarToolStripMenuItem
         '
         Me.KeluarToolStripMenuItem.Name = "KeluarToolStripMenuItem"
-        Me.KeluarToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.KeluarToolStripMenuItem.Size = New System.Drawing.Size(148, 26)
         Me.KeluarToolStripMenuItem.Text = "Keluar"
         '
         'WahanaToolStripMenuItem
@@ -106,100 +107,85 @@ Partial Class Form1
         '
         'LaporanToolStripMenuItem
         '
+        Me.LaporanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LaporanPenjualanToolStripMenuItem, Me.LaporanPengeluaranToolStripMenuItem})
         Me.LaporanToolStripMenuItem.Name = "LaporanToolStripMenuItem"
         Me.LaporanToolStripMenuItem.Size = New System.Drawing.Size(89, 26)
         Me.LaporanToolStripMenuItem.Text = "Laporan"
         '
+        'KatalogToolStripMenuItem
+        '
+        Me.KatalogToolStripMenuItem.Name = "KatalogToolStripMenuItem"
+        Me.KatalogToolStripMenuItem.Size = New System.Drawing.Size(86, 26)
+        Me.KatalogToolStripMenuItem.Text = "Katalog"
+        '
         'Panel1
         '
-        Me.Panel1.Controls.Add(Me.Label3)
+        Me.Panel1.AutoScroll = True
+        Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
+        Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Controls.Add(Me.LbSD)
-        Me.Panel1.Controls.Add(Me.LbJudul)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel1.Location = New System.Drawing.Point(0, 53)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel1.Location = New System.Drawing.Point(0, 46)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1282, 800)
-        Me.Panel1.TabIndex = 86
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Times New Roman", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(415, 1651)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(391, 45)
-        Me.Label3.TabIndex = 17
-        Me.Label3.Text = "Taman Bunga Celosia"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Panel1.Size = New System.Drawing.Size(1182, 707)
+        Me.Panel1.TabIndex = 1
         '
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Times New Roman", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(413, 986)
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(341, 326)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(391, 45)
-        Me.Label2.TabIndex = 16
-        Me.Label2.Text = "Taman Bunga Celosia"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label2.Size = New System.Drawing.Size(519, 45)
+        Me.Label2.TabIndex = 12
+        Me.Label2.Text = "Wisata Taman Bunga Celosia"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(405, 978)
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(343, 291)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(391, 45)
-        Me.Label1.TabIndex = 15
-        Me.Label1.Text = "Taman Bunga Celosia"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label1.Size = New System.Drawing.Size(235, 32)
+        Me.Label1.TabIndex = 11
+        Me.Label1.Text = "Selamat Datang di"
         '
-        'LbSD
+        'LaporanPenjualanToolStripMenuItem
         '
-        Me.LbSD.AutoSize = True
-        Me.LbSD.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LbSD.Location = New System.Drawing.Point(446, 305)
-        Me.LbSD.Name = "LbSD"
-        Me.LbSD.Size = New System.Drawing.Size(164, 23)
-        Me.LbSD.TabIndex = 14
-        Me.LbSD.Text = "Selamat Datang di"
-        Me.LbSD.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.LaporanPenjualanToolStripMenuItem.Name = "LaporanPenjualanToolStripMenuItem"
+        Me.LaporanPenjualanToolStripMenuItem.Size = New System.Drawing.Size(260, 26)
+        Me.LaporanPenjualanToolStripMenuItem.Text = "Laporan Penjualan"
         '
-        'LbJudul
+        'LaporanPengeluaranToolStripMenuItem
         '
-        Me.LbJudul.AutoSize = True
-        Me.LbJudul.Font = New System.Drawing.Font("Times New Roman", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LbJudul.Location = New System.Drawing.Point(442, 328)
-        Me.LbJudul.Name = "LbJudul"
-        Me.LbJudul.Size = New System.Drawing.Size(483, 45)
-        Me.LbJudul.TabIndex = 13
-        Me.LbJudul.Text = "Taman Bunga Celosia anan"
-        Me.LbJudul.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.LaporanPengeluaranToolStripMenuItem.Name = "LaporanPengeluaranToolStripMenuItem"
+        Me.LaporanPengeluaranToolStripMenuItem.Size = New System.Drawing.Size(260, 26)
+        Me.LaporanPengeluaranToolStripMenuItem.Text = "Laporan Pengeluaran"
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.AutoScroll = True
-        Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1282, 853)
+        Me.ClientSize = New System.Drawing.Size(1182, 753)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.MenuStrip1)
-        Me.MainMenuStrip = Me.MenuStrip1
+        Me.Controls.Add(Me.MenuStrip2)
+        Me.MainMenuStrip = Me.MenuStrip2
         Me.Name = "Form1"
-        Me.Text = "Taman Bunga Celosia"
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Sistem Informasi Wisata Taman Celosia"
+        Me.MenuStrip2.ResumeLayout(False)
+        Me.MenuStrip2.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents MenuStrip1 As MenuStrip
-    Friend WithEvents FileToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents MenuStrip2 As MenuStrip
+    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents LoginToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents LogoutToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents KeluarToolStripMenuItem As ToolStripMenuItem
@@ -207,11 +193,11 @@ Partial Class Form1
     Friend WithEvents KasirToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PemasukanToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PengeluaranToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents Panel1 As Panel
     Friend WithEvents LaporanToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents LbSD As Label
-    Friend WithEvents Label3 As Label
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents KatalogToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents LbJudul As Label
+    Friend WithEvents LaporanPenjualanToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents LaporanPengeluaranToolStripMenuItem As ToolStripMenuItem
 End Class

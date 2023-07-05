@@ -10,8 +10,8 @@ Module Module1
     Public MyDB As String
 
     Public Sub Koneksi()
-        MyDB = "Data Source=localhost; " & "Integrated Security=True; " &
-        "database=Wisata_Celosia"
+        MyDB = "Data Source=ARAA; " & "user id = sa; password=123456; Integrated Security=True; " &
+                                                  "database=Wisata_Celosia"
         conn = New SqlConnection(MyDB)
     End Sub
 End Module

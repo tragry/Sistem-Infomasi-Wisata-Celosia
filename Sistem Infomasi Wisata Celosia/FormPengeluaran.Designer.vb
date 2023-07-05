@@ -44,75 +44,75 @@ Partial Class FormPengeluaran
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Label2.Location = New System.Drawing.Point(446, 34)
+        Me.Label2.Location = New System.Drawing.Point(414, 43)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(399, 35)
+        Me.Label2.Size = New System.Drawing.Size(363, 35)
         Me.Label2.TabIndex = 26
-        Me.Label2.Text = "Pengeluaran Taman Celosia aa"
+        Me.Label2.Text = "Pengeluaran Taman Celosia"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'LblIdPengeluaran
         '
         Me.LblIdPengeluaran.AutoSize = True
-        Me.LblIdPengeluaran.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblIdPengeluaran.Location = New System.Drawing.Point(105, 152)
+        Me.LblIdPengeluaran.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblIdPengeluaran.Location = New System.Drawing.Point(107, 144)
         Me.LblIdPengeluaran.Name = "LblIdPengeluaran"
-        Me.LblIdPengeluaran.Size = New System.Drawing.Size(163, 27)
+        Me.LblIdPengeluaran.Size = New System.Drawing.Size(132, 22)
         Me.LblIdPengeluaran.TabIndex = 27
         Me.LblIdPengeluaran.Text = "Id_Pengeluaran"
         '
         'LblPengeluaran
         '
         Me.LblPengeluaran.AutoSize = True
-        Me.LblPengeluaran.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblPengeluaran.Location = New System.Drawing.Point(105, 235)
+        Me.LblPengeluaran.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblPengeluaran.Location = New System.Drawing.Point(107, 201)
         Me.LblPengeluaran.Name = "LblPengeluaran"
-        Me.LblPengeluaran.Size = New System.Drawing.Size(131, 27)
+        Me.LblPengeluaran.Size = New System.Drawing.Size(106, 22)
         Me.LblPengeluaran.TabIndex = 28
         Me.LblPengeluaran.Text = "Pengeluaran"
         '
         'LblJumlah
         '
         Me.LblJumlah.AutoSize = True
-        Me.LblJumlah.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblJumlah.Location = New System.Drawing.Point(105, 314)
+        Me.LblJumlah.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblJumlah.Location = New System.Drawing.Point(107, 255)
         Me.LblJumlah.Name = "LblJumlah"
-        Me.LblJumlah.Size = New System.Drawing.Size(80, 27)
+        Me.LblJumlah.Size = New System.Drawing.Size(65, 22)
         Me.LblJumlah.TabIndex = 29
         Me.LblJumlah.Text = "Jumlah"
         '
         'LblTanggal
         '
         Me.LblTanggal.AutoSize = True
-        Me.LblTanggal.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblTanggal.Location = New System.Drawing.Point(723, 152)
+        Me.LblTanggal.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblTanggal.Location = New System.Drawing.Point(727, 144)
         Me.LblTanggal.Name = "LblTanggal"
-        Me.LblTanggal.Size = New System.Drawing.Size(86, 27)
+        Me.LblTanggal.Size = New System.Drawing.Size(72, 22)
         Me.LblTanggal.TabIndex = 30
         Me.LblTanggal.Text = "Tanggal"
         '
         'Lblketerangan
         '
         Me.Lblketerangan.AutoSize = True
-        Me.Lblketerangan.Font = New System.Drawing.Font("Times New Roman", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lblketerangan.Location = New System.Drawing.Point(105, 394)
+        Me.Lblketerangan.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Lblketerangan.Location = New System.Drawing.Point(107, 315)
         Me.Lblketerangan.Name = "Lblketerangan"
-        Me.Lblketerangan.Size = New System.Drawing.Size(123, 27)
+        Me.Lblketerangan.Size = New System.Drawing.Size(99, 22)
         Me.Lblketerangan.TabIndex = 31
         Me.Lblketerangan.Text = "Keterangan"
         '
         'TxtIdPengeluaran
         '
         Me.TxtIdPengeluaran.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtIdPengeluaran.Location = New System.Drawing.Point(310, 152)
+        Me.TxtIdPengeluaran.Location = New System.Drawing.Point(278, 144)
         Me.TxtIdPengeluaran.Name = "TxtIdPengeluaran"
-        Me.TxtIdPengeluaran.Size = New System.Drawing.Size(371, 30)
+        Me.TxtIdPengeluaran.Size = New System.Drawing.Size(238, 30)
         Me.TxtIdPengeluaran.TabIndex = 32
         '
         'TxtTanggal
         '
         Me.TxtTanggal.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtTanggal.Location = New System.Drawing.Point(843, 149)
+        Me.TxtTanggal.Location = New System.Drawing.Point(847, 141)
         Me.TxtTanggal.Name = "TxtTanggal"
         Me.TxtTanggal.Size = New System.Drawing.Size(235, 30)
         Me.TxtTanggal.TabIndex = 33
@@ -120,15 +120,15 @@ Partial Class FormPengeluaran
         'TxtPengeluaran
         '
         Me.TxtPengeluaran.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtPengeluaran.Location = New System.Drawing.Point(310, 232)
+        Me.TxtPengeluaran.Location = New System.Drawing.Point(278, 201)
         Me.TxtPengeluaran.Name = "TxtPengeluaran"
-        Me.TxtPengeluaran.Size = New System.Drawing.Size(371, 30)
+        Me.TxtPengeluaran.Size = New System.Drawing.Size(400, 30)
         Me.TxtPengeluaran.TabIndex = 34
         '
         'TxtJumlah
         '
         Me.TxtJumlah.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtJumlah.Location = New System.Drawing.Point(310, 314)
+        Me.TxtJumlah.Location = New System.Drawing.Point(278, 255)
         Me.TxtJumlah.Name = "TxtJumlah"
         Me.TxtJumlah.Size = New System.Drawing.Size(238, 30)
         Me.TxtJumlah.TabIndex = 35
@@ -136,38 +136,39 @@ Partial Class FormPengeluaran
         'TxtKeterangan
         '
         Me.TxtKeterangan.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtKeterangan.Location = New System.Drawing.Point(310, 391)
+        Me.TxtKeterangan.Location = New System.Drawing.Point(278, 315)
+        Me.TxtKeterangan.Multiline = True
         Me.TxtKeterangan.Name = "TxtKeterangan"
-        Me.TxtKeterangan.Size = New System.Drawing.Size(371, 30)
+        Me.TxtKeterangan.Size = New System.Drawing.Size(461, 70)
         Me.TxtKeterangan.TabIndex = 36
         '
         'DgvPengeluaran
         '
-        Me.DgvPengeluaran.BackgroundColor = System.Drawing.SystemColors.Control
+        Me.DgvPengeluaran.BackgroundColor = System.Drawing.Color.White
         Me.DgvPengeluaran.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DgvPengeluaran.Location = New System.Drawing.Point(241, 503)
+        Me.DgvPengeluaran.Location = New System.Drawing.Point(110, 416)
         Me.DgvPengeluaran.Name = "DgvPengeluaran"
         Me.DgvPengeluaran.RowHeadersWidth = 51
         Me.DgvPengeluaran.RowTemplate.Height = 24
-        Me.DgvPengeluaran.Size = New System.Drawing.Size(728, 150)
+        Me.DgvPengeluaran.Size = New System.Drawing.Size(972, 319)
         Me.DgvPengeluaran.TabIndex = 37
         '
         'BtnSimpan
         '
-        Me.BtnSimpan.Font = New System.Drawing.Font("Times New Roman", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnSimpan.Location = New System.Drawing.Point(725, 391)
+        Me.BtnSimpan.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnSimpan.Location = New System.Drawing.Point(924, 273)
         Me.BtnSimpan.Name = "BtnSimpan"
-        Me.BtnSimpan.Size = New System.Drawing.Size(120, 44)
+        Me.BtnSimpan.Size = New System.Drawing.Size(158, 44)
         Me.BtnSimpan.TabIndex = 39
         Me.BtnSimpan.Text = "Simpan"
         Me.BtnSimpan.UseVisualStyleBackColor = True
         '
         'Btndelete
         '
-        Me.Btndelete.Font = New System.Drawing.Font("Times New Roman", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Btndelete.Location = New System.Drawing.Point(860, 394)
+        Me.Btndelete.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Btndelete.Location = New System.Drawing.Point(924, 341)
         Me.Btndelete.Name = "Btndelete"
-        Me.Btndelete.Size = New System.Drawing.Size(120, 44)
+        Me.Btndelete.Size = New System.Drawing.Size(158, 44)
         Me.Btndelete.TabIndex = 40
         Me.Btndelete.Text = "Delete"
         Me.Btndelete.UseVisualStyleBackColor = True
@@ -176,6 +177,7 @@ Partial Class FormPengeluaran
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.LightSteelBlue
         Me.ClientSize = New System.Drawing.Size(1200, 800)
         Me.Controls.Add(Me.Btndelete)
         Me.Controls.Add(Me.BtnSimpan)

@@ -16,7 +16,8 @@
             If username = "admin" Then
                 ' Jika pengguna adalah "admin", tampilkan FormWahana
                 Dim formWahana As New FormWahana()
-                formWahana.Show()
+                FormAdmin.Show()
+                Form1.Hide()
             ElseIf username = "user" Then
                 ' Jika pengguna adalah "user", tampilkan FormTiket
                 'Dim formTiket As New FormTiket()
@@ -24,6 +25,7 @@
                 ' Modifikasi: Tampilkan Form NewKatalog
                 Dim newKatalog As New new_katalog()
                 newKatalog.Show()
+                Form1.Hide()
             Else
                 ' Jika pengguna bukan "admin" atau "user", tampilkan Form1
                 Dim form1 As New Form1()
